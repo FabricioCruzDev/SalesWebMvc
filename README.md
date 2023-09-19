@@ -12,4 +12,5 @@ A persistência dos dados será feita a partir do Entity Framework, acessando um
 - Instalação do .NET Core 2.1
 
 ## Desenvolvimento do Projeto
-Foi utilizado o workflow CODE-FIRST, desenvolvendo as classes orientadas a objetos e a partir delas foi gerado o banco de dados utilizando migrations.
+Foi utilizado o workflow CODE-FIRST, desenvolvendo as classes orientadas a objetos e a partir delas foi gerado o banco de dados utilizando migrations. 
+O DB foi populado via SeedingService, independe de uma migration. 
