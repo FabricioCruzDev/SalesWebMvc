@@ -12,5 +12,8 @@ A persistência dos dados será feita a partir do Entity Framework, acessando um
 - Instalação do .NET Core 2.1
 
 ## Desenvolvimento do Projeto
+Para fins didáticos, na criação dos controllers e views, utilizei tanto a geração automática pelo Visual Studio quanto a implementação manual. A camada Serviços é responsável pelas regras de negócios e acesso aos dados. 
 Foi utilizado o workflow CODE-FIRST, desenvolvendo as classes orientadas a objetos e a partir delas foi gerado o banco de dados utilizando migrations. 
 O DB foi populado via SeedingService, independe de uma migration. 
+
+
