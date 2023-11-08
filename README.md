@@ -16,4 +16,7 @@ Para fins didáticos, na criação dos controllers e views, utilizei tanto a ger
 Foi utilizado o workflow CODE-FIRST, desenvolvendo as classes orientadas a objetos e a partir delas foi gerado o banco de dados utilizando migrations. 
 O DB foi populado via SeedingService, independe de uma migration. 
 
+## Operações assíncronas
+Buscando um bom rendimento da aplicação quando é necessário fazer o acesso a dados. Durante o projeto foi abordado as operações assíncronas, utilizando a classe Task do System.Threading.Tasks. A atividade envolveu a refatoração de todos os métodos que acessam o banco de dados.
+
 
